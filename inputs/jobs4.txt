@@ -1,0 +1,18 @@
+# jobs4.txt - ALGORITHMS GIVE VERY DIFFERENT RESULTS (12 jobs, NOT sorted by arrival)
+#   One long job (P1) arrives first, then a stream of short jobs.
+#   - FCFS makes every short job wait behind P1 (convoy effect)
+#   - SJF / SRTF favour the short jobs, and SRTF keeps P1 waiting (starvation demo)
+#   - Round Robin lies in between
+# job_id arrival_time burst_time
+P10 12 2
+P1  0  20
+P4  2  3
+P2  1  2
+P3  3  2
+P6  4  4
+P5  5  1
+P9  6  3
+P7  8  2
+P12 7  5
+P8  10 1
+P11 14 6

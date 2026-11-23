@@ -1,0 +1,8 @@
+# jobs3.txt - IDLE GAPS: the ready queue becomes empty while jobs are still to arrive
+#   CPU is idle from t=5 to t=12 and again from t=18 to t=25
+# job_id arrival_time burst_time
+P1 0 3
+P2 2 2
+P3 12 4
+P4 14 2
+P5 25 3
