@@ -5,11 +5,11 @@
 
 1. GROUP MEMBERS AND WORK DIVISION
 ------------------------------------------------------------------------------
- (Replace the placeholders with your real names and roll numbers.)
+ 
 
-   Member 1 : <Name>, Roll No <RollNo1>   (group leader - submits the zip)
-   Member 2 : <Name>, Roll No <RollNo2>
-   Member 3 : <Name>, Roll No <RollNo3>
+   Member 1 : Muhammad Bilal Azhar, Roll No 24I-2022   
+   Member 2 : Ahmed Shehzad, Roll No 24I-2086
+   Member 3 : Ayesha Irfan, Roll No 24I-2077
 
  The work is divided equally. Every part below was also reviewed by the other
  two members, and every member can explain the WHOLE system.
@@ -46,9 +46,9 @@
  individual viva (each member explains every part of the project).
 
 
-2. WHAT IS IN THE ZIP  (explanation of every file)
+2. WHAT IS IN THE ZIP  
 ------------------------------------------------------------------------------
- Project_<RollNo1>_<RollNo2>_<RollNo3>/
+ Project_i242022_i242086_i242077/
  |
  |-- Makefile            Builds everything with ONE command: make
  |                       Extra targets: run, bonus, results, test, clean
@@ -88,11 +88,9 @@
 ------------------------------------------------------------------------------
  Requirements: Linux, gcc, make (a standard lab machine is enough).
 
-   a) Unzip and enter the folder
-        unzip Project_<RollNo1>_<RollNo2>_<RollNo3>.zip
-        cd Project_<RollNo1>_<RollNo2>_<RollNo3>
+   
 
-   b) Build everything with ONE command
+   a) Build everything with ONE command
         make
       This runs:  gcc -std=c11 -Wall -Wextra -pthread -O2 ...
       for scheduler.c, logger.c and report.c. There are no warnings.
